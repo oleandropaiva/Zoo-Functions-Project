@@ -1,6 +1,12 @@
 const data = require('../data/zoo_data');
 
+<<<<<<< HEAD
 /* const getAnimalsOlderThan = (animal, age1) => {
+=======
+const getAnimalsOlderThan = (animal, age1) => {
+  const { residents } =
+};
+>>>>>>> parent of b877b24 (item 1)
 
 module.exports = getAnimalsOlderThan;
  */
