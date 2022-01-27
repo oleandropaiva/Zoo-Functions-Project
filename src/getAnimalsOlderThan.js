@@ -1,15 +1,10 @@
 const data = require('../data/zoo_data');
 
-<<<<<<< HEAD
-/* const getAnimalsOlderThan = (animal, age1) => {
-=======
-const getAnimalsOlderThan = (animal, age1) => {
-  const { residents } =
-};
->>>>>>> parent of b877b24 (item 1)
+/* const getAnimalsOlderThan = (animal, age1) =>
+  const { residents } = */
 
-module.exports = getAnimalsOlderThan;
- */
+/* module.exports = getAnimalsOlderThan; */
+
 /* { id }destruction. trás a informação que está dentro das chaves  */
 
 /*  2. Implemente a função getAnimalsOlderThan
