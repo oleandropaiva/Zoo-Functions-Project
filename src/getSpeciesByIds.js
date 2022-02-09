@@ -1,9 +1,9 @@
 const data = require('../data/zoo_data');
 
-const getSpecies = data.species;
-function getSpeciesByIds(...id) {
+const getSpeciesByIds = (...id) => {
+  const getSpecies = data.species;
   return getSpecies.filter((nameSpecies) => id.includes(nameSpecies.id));
-}
+};
 
 module.exports = getSpeciesByIds;
 

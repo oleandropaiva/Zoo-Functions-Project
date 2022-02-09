@@ -1,9 +1,17 @@
+/* const { species } = require('../data/zoo_data'); */
+
 const data = require('../data/zoo_data');
 
-/* const getAnimalsOlderThan = (animal, age1) =>
-  const { residents } = */
+const { species } = data;
 
-/* module.exports = getAnimalsOlderThan; */
+/* recebi ajuda do Luis Pastana Tribo B na semana ON TRACK
+ */
+function getAnimalsOlderThan(animal, age1) {
+  const animals = species.find((specie) => specie.name === animal);
+  return animals.residents.every((resident) => resident.age > age1);
+}
+
+module.exports = getAnimalsOlderThan;
 
 /* { id }destruction. trás a informação que está dentro das chaves  */
 
