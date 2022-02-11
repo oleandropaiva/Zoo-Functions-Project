@@ -1,5 +1,5 @@
-const { species } = require('../data/zoo_data');
-const data = require('../data/zoo_data');
+/* const { species } = require('../data/zoo_data');
+const data = require('../data/zoo_data'); */
 
 function getOldestFromFirstSpecies(id) {
 /*   const func = data.employees.find((obj) => obj.id === id);
