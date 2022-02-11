@@ -14,4 +14,4 @@ function getRelatedEmployees(idMananger) {
 
 module.exports = { isManager, getRelatedEmployees };
 
-/* recebi ajuda da Ladylane Turma 19-Tribo C */
+/* recebi ajuda da Ladylane Turma 19-Tribo-C - Semana OnTrack */
