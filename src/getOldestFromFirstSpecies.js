@@ -1,4 +1,4 @@
-/* const { species } = require('../data/zoo_data');
+const { species } = require('../data/zoo_data');
 const data = require('../data/zoo_data');
 
 function getOldestFromFirstSpecies(id) {
@@ -7,4 +7,4 @@ function getOldestFromFirstSpecies(id) {
   const test = species.find((element) => {})
 }
 
-module.exports = getOldestFromFirstSpecies; */
+module.exports = getOldestFromFirstSpecies;
