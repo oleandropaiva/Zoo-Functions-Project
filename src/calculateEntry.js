@@ -1,4 +1,4 @@
-const data = require('../data/zoo_data');
+/* const data = require('../data/zoo_data');
 
 function countEntrants(entrants) {
   if (!entrants) {
@@ -10,13 +10,12 @@ function countEntrants(entrants) {
   const child = entrants.filter((element) => element.age < 18);
   const adult = entrants.filter((element) => element.age >= 18 && element.age < 50);
   const senior = entrants.filter((element) => element.age >= 50);
-  return 
-  
+  return
 
 }
 
 function calculateEntry(entrants) {
   // seu código aqui
-}
+} */
 
-module.exports = { calculateEntry, countEntrants };
+/* module.exports = { calculateEntry, countEntrants }; */

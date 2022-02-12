@@ -41,10 +41,8 @@ function getSchedule(scheduleTarget) {
   }
   return dispon();
 }
-console.table(getSchedule(''));
-console.table(getSchedule('Friday'));
-console.table(getSchedule('lions'));
-console.table(getSchedule('Blaa'));
+console.log(getSchedule(''));
+
 module.exports = getSchedule;
 
 /* Recebi ajuda, na semana on track, dos alunos:
