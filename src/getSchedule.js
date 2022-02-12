@@ -1,29 +1,27 @@
-const { hours } = require('../data/zoo_data');
+const { hours, species } = require('../data/zoo_data');
 const data = require('../data/zoo_data');
+
+const days = Object.keys(hours);
+const hora = Object.values(hours);
 
 function animals(param) {
   const animal = data.species;
   return animal.find((element) => element.name === param).availability;
 }
 function dispon() {
-  const hour = data.hours;
-  const sem = Object.keys(hour);
-  sem.forEach((element) => {
-    const turno = hour[element];
-    if (element === 'Monday') {
-      hour[element] = {
-        officeHour: 'CLOSED',
-        exhibition: 'The zoo will be closed!',
-      };
-    } else {
-      hour[element] = {
-        officeHour: `Open From ${turno.open}am until ${turno.close}pm`,
-        exhibition: data.species.filter((elemento) => elemento.availability.includes(element))
-          .map((elem) => elem.name),
-      };
-    }
-  });
-  return hour;
+  const funcionamento = {};
+  for (let index = 0; index < days.length; index += 1) {
+    funcionamento[days[index]] = {
+      officeHour: `Open from ${hora[index].open}am until ${hora[index].close}pm`,
+      exhibition: species.filter((elemento) => elemento.availability.includes(days[index]))
+        .map((elem) => elem.name),
+    };
+  }
+  funcionamento.Monday = {
+    officeHour: 'CLOSED',
+    exhibition: 'The zoo will be closed!',
+  };
+  return funcionamento;
 }
 
 function returnDay(day) {
@@ -43,5 +41,13 @@ function getSchedule(scheduleTarget) {
   }
   return dispon();
 }
-console.log(getSchedule(''));
+console.table(getSchedule(''));
+console.table(getSchedule('Friday'));
+console.table(getSchedule('lions'));
+console.table(getSchedule('Blaa'));
 module.exports = getSchedule;
+
+/* Recebi ajuda, na semana on track, dos alunos:
+Sandro Bistene
+Bruno Monteiro
+Tiago Gerônimo */
