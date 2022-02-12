@@ -75,4 +75,4 @@ function getEmployeesCoverage(idF) {
 module.exports = getEmployeesCoverage;
 
 /* Recebi ajuda, na semana on track, dos alunos:
-Sandro Bistene Turma 19-c */ 
+Sandro Bistene Turma 19-c */
