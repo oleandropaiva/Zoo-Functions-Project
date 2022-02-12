@@ -41,4 +41,4 @@ function calculateEntry(entrants) {
 console.log(calculateEntry(entrant));
 module.exports = { calculateEntry, countEntrants };
 
-//Recebi ajuda do Sandro Bistene Turma 19-C
+/* Recebi ajuda do Sandro Bistene Turma 19-C */
