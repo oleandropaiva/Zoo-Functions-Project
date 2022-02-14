@@ -7,6 +7,9 @@ const getSpeciesByIds = (...id) => {
 
 module.exports = getSpeciesByIds;
 
+/* Recebi ajuda, na semana on track, dos alunos:
+Sandro Bistene Turma 19-c na semana OnTrack */
+
 /* 1. Implemente a função getSpeciesByIds
 Esta função é responsável pela busca das espécies de animais por id. Ela retorna um array contendo as espécies referentes aos ids passados como parâmetro, podendo receber um ou mais ids.
 Observações técnicas
