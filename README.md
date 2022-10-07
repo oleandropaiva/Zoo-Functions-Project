@@ -1,16 +1,11 @@
-# 🚧 README em construção 🚧
+## Neste projeto, será é capaz de:
 
-<!-- Olá, Tryber!
+- Produzir código legível, conciso e expressivo utilizando as novas funcionalidades do ES6
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+- Utilizar as Higher Order Functions para manipular e criar arrays
 
-É essencial que você preencha esse documento por conta própria, ok?
+- Escolher a Higher Order Function mais adequada para a obtenção de um resultado esperado
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+- Aprender a usar de forma conjunta as Higher Order Functions
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+- Interpretar testes unitários e produzir soluções que atendam a eles
