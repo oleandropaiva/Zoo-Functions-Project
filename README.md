@@ -1,4 +1,4 @@
-## Neste projeto, será é capaz de:
+## Habilidades:
 
 - Produzir código legível, conciso e expressivo utilizando as novas funcionalidades do ES6
 
